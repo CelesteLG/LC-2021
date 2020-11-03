@@ -17,4 +17,4 @@ data PL = Bot
         
 
 f0:: PL
-f0= ((Var "q") `Imp` (Var "p"))
+f0= ((Var "q") `Imp` (Var "qs"))
