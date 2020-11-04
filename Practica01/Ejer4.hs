@@ -33,7 +33,7 @@ operadores (Dis x y) = 1 + operadores(y) + operadores(x)
 operadores (Con x y) = 1 + operadores(y) + operadores(x)
 
 
----Numero de conjunciones de una  
+---Numero de conjunciones  
 conjunciones :: PL -> Int
 conjunciones Bot = 0
 conjunciones Top = 0
@@ -46,3 +46,4 @@ conjunciones (Dis x y) = 0 + conjunciones(y) + conjunciones(x)
 
 
 
+---Para probar se puede utilizar f0, seria conjunciones f0 y regresara 2
